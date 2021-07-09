@@ -73,7 +73,7 @@ pub fn verse(n: u32) -> String {
 /// * `start` The number of bottles at the start
 /// * `end` The number of bottles at the start of the last verse
 /// # Returns
-/// A string representing the verse
+/// A string representing the song
 pub fn sing(start: u32, end: u32) -> String {
     let mut song = String::new();
     if start > end {
